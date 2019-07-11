@@ -3,7 +3,7 @@ body{
 }
 nav {
     width: 100vw;
-    height: 15vh;
+    height: 75px;
     position: fixed;
     top: 0;
     display: flex;
@@ -13,10 +13,15 @@ nav {
     box-sizing: border-box;
   }
   nav .nav__logo {
-    width: auto;
-    height: 10vh;
+    
     margin-left: 5vw;
   }
+
+  .nav__logo, .nav__logo-fallback{
+    width: auto;
+    height: 50px;
+  }
+
   nav ul {
     display: flex;
     list-style-type: none;

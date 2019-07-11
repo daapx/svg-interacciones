@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #7494dd, #c86085);
+}
+
+.boton{
+    position: relative;
+    width: 30vw;
+    height: 20vh;
+    font-size: 3rem;
+    background-color: #3d4751;
+    color: white;
+    border: 1px solid #3d4751;
+}
+
+.boton:hover{
+    background-color: rgba(61, 70, 80, 0.2);
+    border: 1px solid white;
+    box-shadow: -5px 5px 10px -5px #3d4751;
+    left: 5px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
